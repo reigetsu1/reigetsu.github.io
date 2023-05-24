@@ -1,0 +1,96 @@
+
+@charset "utf-8";
+
+@media screen and (max-width: 1024px) {
+  classやid {
+    display: none;
+  }
+}
+
+body {
+    font-family: "Avenir Next";
+    background-image:url("https://stay-concierge.img-ikyu.com/concierge/wp-content/uploads/2016/06/607_02.jpg?w=700&auto=format");
+    background-size: cover;
+    color: #fff;
+    margin:0;
+    display: flex;
+    flex-flow: column;
+    
+
+  }
+  
+
+  .header {
+    display: flex;
+    background-color: #665b62;
+    color: #fff;
+    height: 100px;
+
+  }
+
+  .header-logo {
+    font-size: 36px;
+    padding: 20px 20px;
+  }
+
+  .header-list ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style:none;
+
+  }
+
+  .header-list li {
+     padding:20px 160px;
+  }
+  
+  .contents img {
+    width:100%;
+
+}
+
+  
+  
+  .contents-item {
+    display: flex;
+    color:white;
+    padding: 50px 10px;
+    
+}
+    
+  .contents-item img{
+    border-radius: 50%;
+  }
+
+  th,td{
+    border:1px #f7f4f4e4 solid; 
+    padding:10px 16px; 
+  }
+  table{
+    border-collapse: collapse;
+  }
+  
+a{
+  color: #fff;
+ }
+
+  footer{
+
+    background-color: #2f5167;
+    color: #fff;
+    padding: 40px;
+    bottom: 0; 
+  }
+
+  .footer-list {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  
+  .footer-list li {
+    padding-bottom: 20px;
+    list-style:none;
+    margin-right: 100px;
+  }
+  
